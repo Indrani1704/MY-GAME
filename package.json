@@ -6,22 +6,26 @@
     "dev": "nodemon app.js",
     "start": "node app.js"
   },
+  "keywords": [],
   "author": "Indrani",
   "license": "ISC",
+  "description": "Memory Game with Node.js, Express, Socket.IO, MongoDB",
   "dependencies": {
     "bcrypt": "^6.0.0",
-    "bcryptjs": "^3.0.2",
     "cookie-parser": "^1.4.7",
-    "dotenv": "^16.4.5",
+    "dotenv": "^17.2.2",
     "ejs": "^3.1.10",
-    "express": "^4.18.2",
+    "express": "^5.1.0",
     "express-session": "^1.18.2",
     "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.5.0",
+    "mongoose": "^8.18.0",
     "socket.io": "^4.8.1",
-    "uuid": "^9.0.1"
+    "uuid": "^13.0.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.10"
+  },
+  "engines": {
+    "node": "22.x"
   }
 }
